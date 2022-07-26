@@ -1,0 +1,82 @@
+/*--------------------------*/
+/*** Flexbox ***/
+/* Subject
+- display: flex; (Define o elemento como um flex container)
+- flex-direction: row / column; (Define a orientação dos elementos)
+- flex-wrap: nowrap / wrap / wrap-reverse; (Define como será feita a quebra de linha)
+- flex-flow (Atalho para as propriedades do flex-direction e flex-wrap)
+*/
+.flexContainer{
+  max-width: 300px;
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  display: flex;
+}
+
+.flexItem{
+  background-color: aqua;
+  margin: 5px;
+  height: 50px;
+  width: 50px;
+  line-height: 50px;
+  font-size: 20px;
+  text-align: center;
+}
+
+.row{
+  flex-direction: row;
+}
+
+.row-reverse{
+  flex-direction: row-reverse;
+}
+
+.row-reverse div{
+  background-color: red;
+}
+
+.column{
+  display:flex;
+  flex-direction: column;
+
+}
+
+.column div{
+  background-color: green;
+}
+
+.column2{
+  display:flex;
+  flex-direction: column-reverse;
+}
+
+.column2 div{
+  background-color: yellow;
+}
+
+.wrap {
+flex-wrap: wrap;
+}
+
+.wrap-reverse {
+flex-wrap: wrap-reverse;
+}
+
+.flexContainer2 {
+  display: flex;
+  border: 2px solid black;
+  flex-flow: row wrap;
+  max-width: 500px;
+}
+
+.flexItem2 {
+  background-color: blueviolet;
+  margin: 5px;
+  color: white;
+  text-align: center;
+  width: 100px;
+  height: 50px;
+  line-height: 50px;
+}
+/*--------------------------*/
