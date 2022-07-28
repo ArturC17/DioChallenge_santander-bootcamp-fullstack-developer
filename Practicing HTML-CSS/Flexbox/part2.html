@@ -2,11 +2,13 @@
 <html lang="en" dir="ltr">
   <head>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="style_part2.css">
+    <link rel="stylesheet" href="CSS/style_part2.css">
     <title>Learning Flexbox - part 2</title>
   </head>
   <body>
-  <h2>Row</h2>
+  <h2>justify-content</h2>
+
+  <h3>Row</h3>
       <p>Flex-start</p>
     <section class="container flex-start">
       <div class="item">1</div>
@@ -26,7 +28,7 @@
       <div class="item">item 2</div>
       <div class="item">outro item</div>
       <div class="item">4</div>
-      <div class="item">5</div>
+      <div class="item">5 7 8 9 10</div>
     </section>
     <p>space-between</p>
     <section class="container space-between">
@@ -46,7 +48,7 @@
     </section>
 
 
-<h2>Column</h2>
+<h3>Column</h3>
     <p>Flex-start</p>
   <section class="container flex-start column">
     <div class="item">1</div>
@@ -84,5 +86,95 @@
     <div class="item">4</div>
     <div class="item">5</div>
   </section>
+  <hr>
+  <h2>align-items row</h2>
+  <h3>Center</h3>
+  <section class="container_align center_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+
+  <h3>stretch</h3>
+  <section class="container_align stretch_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+
+  <h3>flex-start</h3>
+  <section class="container_align flex-start_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+  <h3>flex-end</h3>
+  <section class="container_align flex-end_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
   </body>
+  <h3>baseline</h3>
+  <section class="container_align baseline_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+
+  <h2>align-items column</h2>
+  <h3>Center</h3>
+  <section class="container_align center_align column_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+
+  <h3>stretch</h3>
+  <section class="container_align stretch_align column_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+
+  <h3>flex-start</h3>
+  <section class="container_align flex-start_align column_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+  <h3>flex-end</h3>
+  <section class="container_align flex-end_align column_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+  </body>
+  <h3>baseline</h3>
+  <section class="container_align baseline_align column_align">
+    <div class="item">1</div>
+    <div class="item">item 2</div>
+    <div class="item">outro item</div>
+    <div class="item">4</div>
+    <div class="item">5 6 7 8 9 10</div>
+  </section>
+
 </html>

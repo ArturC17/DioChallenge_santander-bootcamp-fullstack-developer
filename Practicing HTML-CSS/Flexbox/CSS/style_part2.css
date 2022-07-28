@@ -1,0 +1,72 @@
+/*--------------------------*/
+/*** Flexbox ***/
+/* Subject
+- justify-content: flex-start / flex-end / center / space-between / space-around
+- align-items
+*/
+.container{
+  max-width: 400px;
+  border: 1px solid black;
+  margin: 0;
+  display: flex;
+}
+
+.item{
+  background-color: blueviolet;
+  margin: 5px;
+  text-align: center;
+  color: white;
+}
+
+.flex-start{
+  justify-content: flex-start;
+}
+
+.flex-end{
+  justify-content: flex-end;
+}
+
+.center{
+  justify-content: center;
+}
+
+.space-between{
+  justify-content: space-between;
+}
+
+.space-around{
+  justify-content: space-around;
+}
+
+.column{
+  flex-direction: column;
+  min-height: 200px;
+}
+
+.container_align{
+  max-width: 350px;
+  border: 1px solid black;
+  display: flex;
+}
+
+.center_align{
+  align-items: center;
+}
+
+.stretch_align{
+  align-items: stretch;
+}
+
+.flex-start_align{
+  align-items: flex-start;
+}
+.flex-end_align{
+  align-items: flex-end;
+}
+.baseline_align{
+align-items: baseline;
+}
+
+.column_align{
+  flex-direction: column;
+}
